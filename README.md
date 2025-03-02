@@ -62,7 +62,7 @@ The model significantly improves forecasting accuracy:
 - **Random Forest with DTC**: 0.00398
 
 ### RMSE by Sector (with DTC)
-- **Total Revenue**: 0.00398
+- **Total Revenue**: 0.03253
 - **Trade**: 0.00357
 - **Hotels and Restaurants**: 0.00495
 - **Tourism**: 0.01618
@@ -78,19 +78,20 @@ The model significantly improves forecasting accuracy:
 
 ### 2025 Total Revenue Forecast
 Below are the predicted total revenues for the first eight months of 2025:
-- **January**: 146,115
-- **February**: 144,105
-- **March**: 143,182
-- **April**: 142,321
-- **May**: 141,670
-- **June**: 140,463
-- **July**: 140,642
-- **August**: 140,607
+- **January**: 402,565.01
+- **February**: 405,619.35
+- **March**: 405,677.89
+- **April**: 407,777.46
+- **May**: 405,677.89
+- **June**: 405,677.89
+- **July**: 406,050.49
+- **August**: 406,683.10
 
 ### Conclusion on Model Comparison
 Based on the comparison of average RMSE for K-Means and DTC clustering (as shown in the figure below), the two models exhibit similar performance across different numbers of clusters. Both methods achieve comparable forecasting accuracy in this context.
 
-![Comparison of Average RMSE for KMeans and DTC Clustering](https://github.com/user-attachments/assets/6e7d1912-cbcb-427a-9d38-5bf1668969d1)
+![Comparison of Average RMSE for KMeans and DTC Clustering](https://github.com/user-attachments/assets/194b9e70-6ac4-4cea-bd90-6725f5087a38)
+
 
 
 ---
