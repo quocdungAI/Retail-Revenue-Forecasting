@@ -49,8 +49,7 @@ The model combines two key techniques:
 - **DTC Layer**: Clusters data points.
 - **Random Forest**: Enhances predictions with clustering results.
 
-![Model Architecture](![image](https://github.com/user-attachments/assets/8aa33d8f-fe1d-4459-8d74-42337d9c9860)
-)
+![Model Architecture](https://github.com/user-attachments/assets/e71ca5fd-a863-4015-a601-f7acdc7f1509)
 
 ---
 
@@ -89,10 +88,10 @@ Below are the predicted total revenues for the first eight months of 2025:
 - **August**: 140,607
 
 ### Conclusion on Model Comparison
-Based on the comparison of average RMSE for K-Means and DTC clustering (as shown in the figure below), the two models exhibit similar performance across different numbers of clusters. This suggests that while DTC offers specific advantages in capturing temporal patterns, both methods achieve comparable forecasting accuracy in this context.
+Based on the comparison of average RMSE for K-Means and DTC clustering (as shown in the figure below), the two models exhibit similar performance across different numbers of clusters. Both methods achieve comparable forecasting accuracy in this context.
 
-![Comparison of Average RMSE for KMeans and DTC Clustering](images/rmse_comparison.png)
-![Cluster Visualization](images/cluster_visualization.png)
+![Comparison of Average RMSE for KMeans and DTC Clustering](https://github.com/user-attachments/assets/6e7d1912-cbcb-427a-9d38-5bf1668969d1)
+
 
 ---
 ## Requirements
